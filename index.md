@@ -3,8 +3,6 @@ layout: single
 title: About Me
 permalink: /
 author_profile: true
-header:
-  nav: "header_nav"
 sidebar:
   nav: "side_nav"
 ---
