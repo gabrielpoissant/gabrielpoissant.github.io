@@ -7,11 +7,11 @@ main:
 side_nav: 
   - title: Home
     url: /
+  - title: Resume
+    url: /resume/
   - title: "Projects:"
     children:
       - title: Project A
         url: /projects/project-a/
       - title: Project B
         url: /projects/project-b/
-  - title: Resume
-    url: /resume/
