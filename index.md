@@ -1,6 +1,8 @@
 ---
 layout: single
 title: Home
+header:
+  show_title: false
 author_profile: true
 sidebar:
   nav: "main"
