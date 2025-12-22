@@ -2,7 +2,10 @@ main:
   - title: About
     url: /
   - title: Projects
+    url: /projects/
     children:
+      - title: Project A
+        url: /projects/project-a/
       - title: Project A
         url: /projects/project-a/
   - title: Resume
