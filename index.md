@@ -5,7 +5,7 @@ header:
   show_title: false
 author_profile: true
 sidebar:
-  nav: "main"
+  nav: "side_nav"
 ---
 
 **Master’s in Data Science (University of Pittsburgh)** • San Diego, CA
