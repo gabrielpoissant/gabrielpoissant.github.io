@@ -39,14 +39,6 @@
 
 /* Change content font size */
 .page__content {
-  font-size: 0.925rem; /* default is ~1rem */
+  font-size: 0.9rem; /* default is ~1rem */
   max-width: none;
-}
-
-/* Main body width */
-.page,
-.archive,
-.initial-content,
-.page__inner-wrap {
-  max-width: 1200px;
 }
