@@ -6,7 +6,7 @@ main:
     children:
       - title: Project A
         url: /projects/project-a/
-      - title: Project A
-        url: /projects/project-a/
+      - title: Project B
+        url: /projects/project-b/
   - title: Resume
     url: /resume/
