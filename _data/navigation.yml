@@ -1,8 +1,13 @@
-main:
-  - title: About
+header_nav:
+  - title: Home
+    url: /
+  - title: Resume
+    url: /resume/
+
+side_nav: 
+  - title: Home
     url: /
   - title: Projects
-    url: /projects/
     children:
       - title: Project A
         url: /projects/project-a/
