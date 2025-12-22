@@ -1,7 +1,11 @@
-docs:
+main:
+  - title: About
+    url: /
   - title: Projects
     children:
       - title: TMDb Movie Analysis
         url: /TMDb-Movie-Analysis/
       - title: Cyclistic Bike Share
         url: /cyclistic_bike_share/
+  - title: Resume
+    url: /resume/
