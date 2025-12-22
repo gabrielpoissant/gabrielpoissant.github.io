@@ -4,7 +4,7 @@ title: Project A
 permalink: /projects/project-a/
 author_profile: true
 sidebar:
-  nav: "main"
+  nav: "side_nav"
 ---
 
 # Project A — One-line outcome
