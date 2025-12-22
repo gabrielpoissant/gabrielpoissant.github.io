@@ -22,9 +22,9 @@ defaults:
     values:
       layout: single
 
-# Load Google Fonts
+# Load Google Fonts - Inter
 google_fonts:
-  - family: Inter:wght@400;500;600;700
+  - family: Inter:wght@400;500;600;700;800
 
 # Enable author profile
 author_profile: true
