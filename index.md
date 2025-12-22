@@ -1,6 +1,6 @@
 ---
 layout: single
-title: Home
+title: About Me
 header:
   show_title: false
 author_profile: true
@@ -8,8 +8,7 @@ sidebar:
   nav: "main"
 ---
 
-# Your Name
-**Master’s in Data Science (University of Pittsburgh)** • Los Angeles (PT)
+**Master’s in Data Science (University of Pittsburgh)** • San Diego, CA
 
 I build clear, decision-ready analysis from messy data — with strengths in modeling, SQL, and business/finance context.
 
