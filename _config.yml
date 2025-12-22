@@ -55,5 +55,6 @@ atom_feed:
 # Remove Credit from footer (sorry)
 footer:
   links: []
+  
 powered_by: false
 
