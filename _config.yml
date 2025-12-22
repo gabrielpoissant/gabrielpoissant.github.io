@@ -46,7 +46,7 @@ author:
 
     - label: "LinkedIn"
       icon: "fab fa-linkedin"
-      url: "www.linkedin.com/in/gabriel-poissant"
+      url: "https://linkedin.com/in/gabriel-poissant"
 
 # Remove RSS from footer
 atom_feed:
