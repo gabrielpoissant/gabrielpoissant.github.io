@@ -16,6 +16,8 @@ defaults:
     values:
       layout: single
 
+custom_css:
+  - /assets/css/custom.css
 
 author_profile: true
 
