@@ -27,7 +27,6 @@
   font-weight: 600;
   font-size: 1.15rem;
   letter-spacing: -0.02em;  
-  text-transform: uppercase;
 }
 
 /* Top nav menu links (excluding site title) */
@@ -45,6 +44,9 @@
 }
 
 /* Main body width */
+.page,
+.archive,
+.initial-content,
 .page__inner-wrap {
-  max-width: 1200px; /* default is ~1024px */
+  max-width: 1200px;
 }
