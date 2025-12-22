@@ -2,6 +2,7 @@
 layout: single
 title: Project A
 permalink: /projects/project-a/
+author_profile: true
 sidebar:
   nav: "main"
 ---
