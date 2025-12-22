@@ -6,13 +6,13 @@ plugins:
   - jekyll-remote-theme
   - jekyll-include-cache
 
-# Hooks up header menu to "main" menu
+# Hooks up header menu to "header_nav" menu
 header:
-  nav: "main"
+  nav: "header_nav"
 
-# Enable sidebar, hooks up to 'main' menu
+# Enable sidebar, hooks up to 'side_nav' menu
 sidebar:
-  nav: "main"
+  nav: "side_nav"
 
 # Page default properties
 defaults:
