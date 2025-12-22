@@ -1,7 +1,7 @@
 docs:
   - title: Projects
     children:
-      - title: Spotify Analysis
-        url: /spotify/
-      - title: SQL Car Sales
-        url: /car-sales/
+      - title: TMDb Movie Analysis
+        url: /TMDb-Movie-Analysis/
+      - title: Cyclistic Bike Share
+        url: /cyclistic_bike_share/
