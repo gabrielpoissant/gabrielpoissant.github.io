@@ -20,7 +20,23 @@ I build clear, decision-ready analysis from messy data — with strengths in mod
   - Case study: /projects/project-b  
   - Code: https://github.com/USERNAME/REPO2
 
+{: .notice--info}
+**Design choice:** I clustered before modeling to understand structure before optimizing performance.
+
+or try 
+
+{: .notice--warning}
+**Limitation:** This dataset is observational, so causal claims are intentionally avoided.
+
+then you can do stuff like this: 
+## How I approach data problems
+- Start with the decision, not the model
+- Explore aggressively before modeling
+- Prefer simple models unless complexity is justified
+- Document assumptions and limitations clearly
+
 ## Links
 - Resume: (add PDF link later)
 - GitHub: https://github.com/USERNAME
 - LinkedIn: (link)
+
