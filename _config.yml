@@ -21,8 +21,6 @@ defaults:
       type: pages
     values:
       layout: single
-      header:
-        show_title: false
 
 # Load Google Fonts - Inter
 google_fonts:
