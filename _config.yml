@@ -1,5 +1,13 @@
-title: Your Name — Data Portfolio
-description: Data Science | Analytics | Finance
+title: Gabe Poissant
+description: Data Science Portfolio
 remote_theme: mmistakes/minimal-mistakes
+
 sidebar:
-  nav: "docs"
+  nav: "main"
+
+defaults:
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
