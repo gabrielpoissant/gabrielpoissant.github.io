@@ -3,8 +3,6 @@ layout: single
 title: Project A
 permalink: /projects/project-a/
 author_profile: true
-header:
-  nav: "header_nav"
 sidebar:
   nav: "side_nav"
 ---
