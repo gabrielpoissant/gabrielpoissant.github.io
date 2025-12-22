@@ -3,6 +3,7 @@ layout: single
 title: About Me
 header:
   show_title: false
+  nav: "header_nav"
 author_profile: true
 sidebar:
   nav: "side_nav"
