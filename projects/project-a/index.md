@@ -1,6 +1,9 @@
 ---
 layout: single
 title: Project A
+permalink: /projects/project-a/
+sidebar:
+  nav: "main"
 ---
 
 # Project A — One-line outcome
