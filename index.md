@@ -35,8 +35,23 @@ then you can do stuff like this:
 - Prefer simple models unless complexity is justified
 - Document assumptions and limitations clearly
 
-## Links
-- Resume: (add PDF link later)
-- GitHub: https://github.com/USERNAME
-- LinkedIn: (link)
+## Use these for more fancy web stuff!
+- https://mmistakes.github.io/minimal-mistakes/docs/utility-classes/
+- https://www.markdownguide.org/cheat-sheet/
 
+
+---
+
+	> gimme some money please
+
+| Syntax | Description |
+| ----------- | ----------- |
+| Header | Title |
+| Paragraph | Text |
+
+
+- [x] Write the press release
+- [ ] Update the website
+- [ ] Contact the media
+
+I need to highlight these ==very important words==.
