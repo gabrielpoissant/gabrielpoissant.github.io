@@ -46,3 +46,8 @@
   max-width: 1200px; /* default is ~1024px */
 }
 
+/* uncap text width */
+.page__content {
+  max-width: none;
+}
+
