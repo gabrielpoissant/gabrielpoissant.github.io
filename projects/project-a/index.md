@@ -1,6 +1,8 @@
 ---
 layout: single
 title: Project A
+header:
+  show_title: false
 permalink: /projects/project-a/
 author_profile: true
 sidebar:
