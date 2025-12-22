@@ -39,15 +39,10 @@
 /* Change content font size */
 .page__content {
   font-size: 0.925rem; /* default is ~1rem */
+  max-width: none;
 }
 
 /* Main body width */
 .page__inner-wrap {
   max-width: 1200px; /* default is ~1024px */
 }
-
-/* uncap text width */
-.page__content {
-  max-width: none;
-}
-
