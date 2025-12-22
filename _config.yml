@@ -6,7 +6,11 @@ plugins:
   - jekyll-remote-theme
   - jekyll-include-cache
 
-# Enable sidebar
+# Hooks up header menu to "main" menu
+header:
+  nav: main
+
+# Enable sidebar, hooks up to 'main' menu
 sidebar:
   nav: "main"
 
