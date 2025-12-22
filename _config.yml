@@ -6,9 +6,11 @@ plugins:
   - jekyll-remote-theme
   - jekyll-include-cache
 
+# Enable sidebar
 sidebar:
   nav: "main"
 
+# Page default properties
 defaults:
   - scope:
       path: ""
@@ -16,10 +18,12 @@ defaults:
     values:
       layout: single
 
+# Enable author profile
 author_profile: true
 
+# Define sidebar author profile 
 author:
-  name   : "Gabe Poissant"
+  #name   : "Gabe Poissant"
   avatar : "/assets/images/profile_800.jpg"
   bio    : "Master’s in Data Science • Analytics • Finance"
 
@@ -35,3 +39,7 @@ author:
     - label: "LinkedIn"
       icon: "fab fa-linkedin"
       url: "www.linkedin.com/in/gabriel-poissant"
+
+# Remove RSS from footer
+atom_feed:
+  hide: true
