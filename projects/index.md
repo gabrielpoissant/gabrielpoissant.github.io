@@ -1,7 +1,7 @@
 ---
 layout: single
 title: Projects
-permalink: /projects/project-a/
+permalink: /projects/
 author_profile: true
 sidebar:
   nav: "main"
