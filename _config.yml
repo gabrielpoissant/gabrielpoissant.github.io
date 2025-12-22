@@ -8,7 +8,7 @@ plugins:
 
 # Hooks up header menu to "header_nav" menu
 header:
-  nav: "header_nav"
+  nav: "main"
 
 # Enable sidebar, hooks up to 'side_nav' menu
 sidebar:
