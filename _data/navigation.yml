@@ -5,10 +5,6 @@ main:
     url: /resume/
 
 side_nav: 
-  - title: Home
-    url: /
-  - title: Resume
-    url: /resume/
   - title: "Projects:"
     children:
       - title: Project A
