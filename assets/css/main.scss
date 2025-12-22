@@ -8,14 +8,21 @@
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}";
 @import "minimal-mistakes";
 
-/* ---- Overrides go below this line ---- */
+/* ---- overrides ---- */
 
-/* Make the author avatar larger */
+/* Author Avatar size (default 110) */
 .author__avatar img {
   max-width: 160px; 
 }
 
-/* Increase space between sidebar and content */
+/* Sidebar padding-right */
 .sidebar {
   padding-right: 2.25rem;
+}
+
+/* Site title styling */
+.site-title {
+  font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  font-weight: 600;
+  letter-spacing: -0.02em;
 }
