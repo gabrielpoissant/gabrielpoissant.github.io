@@ -1,6 +1,8 @@
 ---
 layout: single
 title: Home
+sidebar:
+  nav: "main"
 ---
 
 # Your Name
