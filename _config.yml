@@ -15,3 +15,24 @@ defaults:
       type: pages
     values:
       layout: single
+
+
+author_profile: true
+
+author:
+  name   : "Gabe Poissant"
+  avatar : "/assets/images/profile_pic.png"
+  bio    : "Master’s in Data Science • Analytics • Finance"
+
+  links:
+    - label: "Email"
+      icon: "fas fa-envelope"
+      url: "mailto:gabrielpoissant@gmail.com"
+
+    - label: "GitHub"
+      icon: "fab fa-github"
+      url: "https://github.com/gabepoissant"
+
+    - label: "LinkedIn"
+      icon: "fab fa-linkedin"
+      url: "www.linkedin.com/in/gabriel-poissant"
