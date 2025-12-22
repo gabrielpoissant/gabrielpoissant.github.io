@@ -7,7 +7,7 @@ main:
 side_nav: 
   - title: Home
     url: /
-  - title: Projects
+  - title: Projects:
     children:
       - title: Project A
         url: /projects/project-a/
