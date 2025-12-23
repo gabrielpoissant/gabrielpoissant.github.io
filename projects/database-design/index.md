@@ -49,14 +49,9 @@ I used the standard layered approach, consisting of:
 - **Deployment** (Loading and transforming data)
 
 
-<figure>
-  <img src="/assets/Conceptual_Diagram.png" alt="Image description">
-  <figcaption>This is the image caption.</figcaption>
-</figure>
-
-
 Conceptual diagram describing preliminary structure and cardinality:
 ![Conceptual-Model](/assets/Conceptual_Diagram.png){: .align-center}
+<figcaption>This is the image caption.</figcaption>
 
 Physical model diagram created using reverse-engineer method:
 ![Physical_Diagram](/assets/Physical_Diagram.png){: .align-center}
