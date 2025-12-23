@@ -54,18 +54,18 @@ Conceptual diagram describing preliminary structure and cardinality
 Physical model diagram created using reverse-engineer method
 ![Physical_Diagram](/assets/Physical_Diagram.png){: .align-center}
 
-SQL excerpt defining tables and keys:
+SQL excerpts defining tables, primary keys and foreign keys:
 ```
-ALTER TABLE CAR_SALE
-ADD CONSTRAINT FK_CAR_SALE_Year_ID FOREIGN KEY (Year_ID)
-REFERENCES YEAR(Year_ID);
-
 CREATE TABLE MAKE
 (Make_ID INT AUTO_INCREMENT,
 Make VARCHAR(50),
 Created_Date DATETIME DEFAULT NOW(),
 Modified_Date DATETIME DEFAULT NOW(),
 CONSTRAINT PK_MAKE PRIMARY KEY (Make_ID));
+
+ALTER TABLE CAR_SALE
+ADD CONSTRAINT FK_CAR_SALE_Make_ID FOREIGN KEY (Make_ID)
+REFERENCES MAKE(Make_ID);
 ```
 
 ---
