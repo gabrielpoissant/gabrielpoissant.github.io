@@ -14,6 +14,7 @@ I wanted to make sure I understood the fundamentals of how data is deployed in p
 I found a dataset about used car sales in the U.S. between 2014 and 2015. The data centers around car sales, giving information about the vehicle, and when and where it was sold.
 
 This dataset was authored by [Syed Anwar](https://www.kaggle.com/syedanwarafridi) and [published to Kaggle](https://www.kaggle.com/datasets/syedanwarafridi/vehicle-sales-data/data). It consits of 16 fields and 558,837 rows and has the following structure:
+
 | Column | Description | Example Value |
 |-----------|----------|---------|
 | year      | Model year of the vehicle sold | 2014 |
