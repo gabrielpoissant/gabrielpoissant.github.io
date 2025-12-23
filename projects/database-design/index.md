@@ -42,7 +42,7 @@ Bullets: EDA → prep → modeling/SQL → evaluation.
 
 | Column | Description | Example Value |
 |-----------|----------|---------|
-| sds       | sss      | sss     |
+| year      | Model year of the vehicle sold | 2014 |
 | sss       | sss      | ss      |
 | sss       | sss      | sss     |
 
