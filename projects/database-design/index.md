@@ -42,12 +42,13 @@ This dataset was authored by [Syed Anwar](https://www.kaggle.com/syedanwarafridi
 ---
 
 **Approach:**  
-I used the standard layered approach, which consisted of:
-- Conceptual Design (High Level ER Diagrams)
-- Logical Design (Define tables, columns and keys)
-- Physical Model (DDL)
-- Deployment (Loading and transforming data)
+I used the standard layered approach, consisting of:
+- *Conceptual Design* (High Level ER Diagrams)
+- *Logical Design* (Define tables, columns and keys)
+- *Physical Model* (DDL)
+- *Deployment* (Loading and transforming data)
 
+![Conceptual-Model](/assets/Conceptual_Diagram.png){: .align-center}
 
 ---
 
