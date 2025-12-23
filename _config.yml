@@ -48,8 +48,6 @@ author:
       icon: "fab fa-linkedin"
       url: "https://linkedin.com/in/gabriel-poissant"
 
-# Remove RSS from footer
-#atom_feed:
-  #hide: true
+favicon: "/assets/images/favicon.ico"
 
 
