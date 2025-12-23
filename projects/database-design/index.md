@@ -43,21 +43,21 @@ Bullets: EDA → prep → modeling/SQL → evaluation.
 | Column | Description | Example Value |
 |-----------|----------|---------|
 | year      | Model year of the vehicle sold | 2014 |
-| make       | sss      | Kia      |
-| model       | sss      | Rio     |
-| trim       | sss      | LX     |
-| body       | sss      | Sedan     |
-| transmission       | sss      | automatic     |
-| vin       | sss      | knadm4a35e6327128     |
-| state       | sss      | tx     |
-| condition       | sss      | 39     |
-| odometer       | sss      | 27187     |
-| color       | sss      | silver     |
-| interior       | sss      | black     |
-| seller       | sss      | tdaf remarketing     |
-| mmr       | sss      | 10650     |
-| sellingprice       | sss      | 10200     |
-| saledate       | sss      | Wed Feb 11 2015 02:15:00 GMT-0800 (PST)     |
+| make       | Manufacturer of the vehicle      | Kia      |
+| model       | Model of the vehicle      | Rio     |
+| trim       | Identifies included features      | LX     |
+| body       | Type of vehicle      | Sedan     |
+| transmission       | Transmission style of vehicle      | automatic     |
+| vin       | Vehicle Identification Number      | knadm4a35e6327128     |
+| state       | U.S. State car was sold in      | tx     |
+| condition       | Rating of vehicle condition      | 39     |
+| odometer       | Odometer reading at time of sale      | 27187     |
+| color       | Exterior paint color      | silver     |
+| interior       | Interior finish color      | black     |
+| seller       | The entity that sold the vehicle      | tdaf remarketing     |
+| mmr       | Manheim Market Report, an estimated market value      | 10650     |
+| sellingprice       | Price vehicle sold for      | 10200     |
+| saledate       | Date of sale      | Wed Feb 11 2015 02:15:00 GMT-0800 (PST)     |
 
 
 
