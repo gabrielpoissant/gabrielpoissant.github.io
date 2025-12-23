@@ -43,12 +43,18 @@ This dataset was authored by [Syed Anwar](https://www.kaggle.com/syedanwarafridi
 
 **Approach:**  
 I used the standard layered approach, consisting of:
-- *Conceptual Design* (High Level ER Diagrams)
-- *Logical Design* (Define tables, columns and keys)
-- *Physical Model* (DDL)
-- *Deployment* (Loading and transforming data)
+- **Conceptual Design** (High Level ER Diagrams)
+- **Logical Design** (Define tables, columns and keys)
+- **Physical Model** (DDL)
+- **Deployment** (Loading and transforming data)
 
+Conceptual diagram describing preliminary structure and cardinality
+{: .notice}
 ![Conceptual-Model](/assets/Conceptual_Diagram.png){: .align-center}
+
+Physical model diagram created using reverse-engineer method
+{: .notice}
+![Physical_Diagram](/assets/Physical_Diagram.png){: .align-center}
 
 ---
 
