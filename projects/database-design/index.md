@@ -12,34 +12,8 @@ I wanted to make sure I understood the fundamentals of how data is deployed in p
 
 **Data:**  
 I found a dataset about used car sales in the U.S. between 2014 and 2015. The data centers around car sales, giving information about the vehicle, and when and where it was sold.
-### Info
-This dataset was authored by [Syed Anwar](https://www.kaggle.com/syedanwarafridi) and [published to Kaggle](https://www.kaggle.com/datasets/syedanwarafridi/vehicle-sales-data/data). It consits of 16 fields and 558,837 rows. 
-### Data Structure
-| Column | Description | Example Value |
-| ----------- | ----------- | ----------- |
-| year | Model year of the vehicle sold | 2014 |
-| make | Manufacturer of the vehicle | Kia | 
-| model | Model of the vehicle | Rio |
-| trim | Identifies included features | LX |
-| body | Type of vehicle | Sedan |
-| transmission | Transmission style of vehicle | automatic |
-| vin | Vehicle Identification Number | knadm4a35e6327128 |
-| state | U.S. State car was sold in | tx |
-| condition | Rating of |Text | 39 |
-| odometer | Text | 27187 |
-| color | Text | silver |
-| interior | Text | black |
-| seller | Text | tdaf remarketing |
-| mmr | Text | 10650 |
-| sellingprice | Text | 10200 |
-| saledate | Text | Wed Feb 11 2015 02:15:00 GMT-0800 (PST) |
 
-
-
-
-**Approach:**  
-Bullets: EDA → prep → modeling/SQL → evaluation.
-
+This dataset was authored by [Syed Anwar](https://www.kaggle.com/syedanwarafridi) and [published to Kaggle](https://www.kaggle.com/datasets/syedanwarafridi/vehicle-sales-data/data). It consits of 16 fields and 558,837 rows and has the following structure:
 | Column | Description | Example Value |
 |-----------|----------|---------|
 | year      | Model year of the vehicle sold | 2014 |
@@ -58,6 +32,13 @@ Bullets: EDA → prep → modeling/SQL → evaluation.
 | mmr       | Manheim Market Report, an estimated market value      | 10650     |
 | sellingprice       | Price vehicle sold for      | 10200     |
 | saledate       | Date of sale      | Wed Feb 11 2015 02:15:00 GMT-0800 (PST)     |
+
+
+
+**Approach:**  
+Bullets: EDA → prep → modeling/SQL → evaluation.
+
+
 
 
 
