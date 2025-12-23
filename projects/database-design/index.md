@@ -32,7 +32,8 @@ I found a dataset about used car sales in the U.S. between 2014 and 2015. The da
 | sellingprice       | Price vehicle sold for      | 10200     |
 | saledate       | Date of sale      | Wed Feb 11 2015 02:15:00 GMT-0800 (PST)     |
 
-This dataset was authored by [Syed Anwar](https://www.kaggle.com/syedanwarafridi) and [published to Kaggle](https://www.kaggle.com/datasets/syedanwarafridi/vehicle-sales-data/data).{: .notice}
+This dataset was authored by [Syed Anwar](https://www.kaggle.com/syedanwarafridi) and [published to Kaggle](https://www.kaggle.com/datasets/syedanwarafridi/vehicle-sales-data/data).
+{: .notice}
 
 **Approach:**  
 Bullets: EDA → prep → modeling/SQL → evaluation.
