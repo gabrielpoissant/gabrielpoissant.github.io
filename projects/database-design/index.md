@@ -43,8 +43,24 @@ Bullets: EDA → prep → modeling/SQL → evaluation.
 | Column | Description | Example Value |
 |-----------|----------|---------|
 | year      | Model year of the vehicle sold | 2014 |
-| sss       | sss      | ss      |
-| sss       | sss      | sss     |
+| make       | sss      | ss      |
+| model       | sss      | sss     |
+| trim       | sss      | sss     |
+| body       | sss      | sss     |
+| transmission       | sss      | sss     |
+| vin       | sss      | sss     |
+| state       | sss      | sss     |
+| condition       | sss      | sss     |
+| odometer       | sss      | sss     |
+| color       | sss      | sss     |
+| interior       | sss      | sss     |
+| seller       | sss      | sss     |
+| mmr       | sss      | sss     |
+| sellingprice       | sss      | sss     |
+| saledate       | sss      | sss     |
+
+
+
 
 **Results:**  
 Metrics *or* business insights, plus 2–4 bullets.
