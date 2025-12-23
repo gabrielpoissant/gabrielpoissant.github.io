@@ -42,3 +42,7 @@
   font-size: 0.9rem; /* default is ~1rem */
   max-width: none;
 }
+
+/* image caption styling */
+em + img {background-color:red;}
+
