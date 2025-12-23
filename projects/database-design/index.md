@@ -12,6 +12,7 @@ sidebar:
 <!--  I wanted to make sure I understood the fundamentals of how data is deployed in production environments. I decided to take a raw dataset from an unprocessed `.csv` and bring it through all design phases into a working, queryable database. -->
 To take a raw dataset and bring it through all design phases into a working, queryable database.
 ---
+
 **Data:**  
 I found a dataset about used car sales in the U.S. between 2014 and 2015. The data gives information about the vehicle, and where and when it was sold.
 
