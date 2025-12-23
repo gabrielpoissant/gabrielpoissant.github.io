@@ -40,6 +40,12 @@ This dataset was authored by [Syed Anwar](https://www.kaggle.com/syedanwarafridi
 **Approach:**  
 Bullets: EDA → prep → modeling/SQL → evaluation.
 
+| gsdfgsdfg | sdgfdsfg | gsdfgds |   |   |
+|-----------|----------|---------|---|---|
+| sds       | sss      | sss     |   |   |
+| sss       | sss      | ss      |   |   |
+| sss       | sss      | sss     |   |   |
+
 **Results:**  
 Metrics *or* business insights, plus 2–4 bullets.
 
