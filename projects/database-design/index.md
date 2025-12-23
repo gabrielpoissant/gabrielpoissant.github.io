@@ -43,20 +43,20 @@ Bullets: EDA → prep → modeling/SQL → evaluation.
 | Column | Description | Example Value |
 |-----------|----------|---------|
 | year      | Model year of the vehicle sold | 2014 |
-| make       | sss      | ss      |
-| model       | sss      | sss     |
-| trim       | sss      | sss     |
-| body       | sss      | sss     |
-| transmission       | sss      | sss     |
-| vin       | sss      | sss     |
-| state       | sss      | sss     |
-| condition       | sss      | sss     |
-| odometer       | sss      | sss     |
-| color       | sss      | sss     |
-| interior       | sss      | sss     |
-| seller       | sss      | sss     |
-| mmr       | sss      | sss     |
-| sellingprice       | sss      | sss     |
+| make       | sss      | Kia      |
+| model       | sss      | Rio     |
+| trim       | sss      | LX     |
+| body       | sss      | Sedan     |
+| transmission       | sss      | automatic     |
+| vin       | sss      | knadm4a35e6327128     |
+| state       | sss      | tx     |
+| condition       | sss      | 39     |
+| odometer       | sss      | 27187     |
+| color       | sss      | silver     |
+| interior       | sss      | black     |
+| seller       | sss      | tdaf remarketing     |
+| mmr       | sss      | 10650     |
+| sellingprice       | sss      | 10200     |
 | saledate       | sss      | sss     |
 
 
