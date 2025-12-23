@@ -57,7 +57,7 @@ Bullets: EDA → prep → modeling/SQL → evaluation.
 | seller       | sss      | tdaf remarketing     |
 | mmr       | sss      | 10650     |
 | sellingprice       | sss      | 10200     |
-| saledate       | sss      | sss     |
+| saledate       | sss      | Wed Feb 11 2015 02:15:00 GMT-0800 (PST)     |
 
 
 
