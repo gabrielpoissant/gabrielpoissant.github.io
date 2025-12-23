@@ -40,7 +40,7 @@ This dataset was authored by [Syed Anwar](https://www.kaggle.com/syedanwarafridi
 **Approach:**  
 Bullets: EDA → prep → modeling/SQL → evaluation.
 
-| gsdfgsdfg | sdgfdsfg | gsdfgds |
+| Column | Description | Example Value |
 |-----------|----------|---------|
 | sds       | sss      | sss     |
 | sss       | sss      | ss      |
