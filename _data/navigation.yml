@@ -9,5 +9,5 @@ side_nav:
     children:
       - title: Project A
         url: /projects/project-a/
-      - title: Project B
-        url: /projects/project-b/
+      - title: Database Design
+        url: /projects/database-design/
