@@ -48,6 +48,13 @@ I used the standard layered approach, consisting of:
 - **Physical Model** (DDL)
 - **Deployment** (Loading and transforming data)
 
+
+<figure>
+  <img src="/assets/Conceptual_Diagram.png" alt="Image description">
+  <figcaption>This is the image caption.</figcaption>
+</figure>
+
+
 Conceptual diagram describing preliminary structure and cardinality:
 ![Conceptual-Model](/assets/Conceptual_Diagram.png){: .align-center}
 
