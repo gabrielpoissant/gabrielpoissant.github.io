@@ -16,7 +16,7 @@ I found a dataset about used car sales in the U.S. between 2014 and 2015. The da
 This dataset was authored by [Syed Anwar](https://www.kaggle.com/syedanwarafridi){: .btn} and [published to Kaggle](https://www.kaggle.com/datasets/syedanwarafridi/vehicle-sales-data/data). It consits of 16 fields and 558,837 rows. 
 ### Data Structure
 | Column | Description | Example Value |
-| ----------- | ----------- | ----------- |
+|-----------|----------|---------|
 | year | Title | 2014 |
 | make | Text | Kia | 
 | model | Text | Rio |
@@ -32,7 +32,7 @@ This dataset was authored by [Syed Anwar](https://www.kaggle.com/syedanwarafridi
 | seller | Text | tdaf remarketing |
 | mmr | Text | 10650 |
 | sellingprice | Text | 10200 |
-| saledate | Text | Wed Feb 11 2015 02:15:00 GMT-0800 (PST) |
+
 
 
 
@@ -40,12 +40,12 @@ This dataset was authored by [Syed Anwar](https://www.kaggle.com/syedanwarafridi
 **Approach:**  
 Bullets: EDA → prep → modeling/SQL → evaluation.
 
-| gsdfgsdfg | sdgfdsfg | gsdfgds |   |   |
-|-----------|----------|---------|---|---|
-| sds       | sss      | sss     |   |   |
-| sss       | sss      | ss      |   |   |
-| sss       | sss      | sss     |   |   |
-
+| gsdfgsdfg | sdgfdsfg | gsdfgds |
+|-----------|----------|---------|
+| sds       | sss      | sss     |
+| sss       | sss      | ss      |
+| sss       | sss      | sss     |
+| saledate | Text | Wed Feb 11 2015 02:15:00 GMT-0800 (PST) |
 **Results:**  
 Metrics *or* business insights, plus 2–4 bullets.
 
