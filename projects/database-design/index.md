@@ -38,9 +38,15 @@ I found a dataset about used car sales in the U.S. between 2014 and 2015. The da
 
 This dataset was authored by [Syed Anwar](https://www.kaggle.com/syedanwarafridi) and [published to Kaggle](https://www.kaggle.com/datasets/syedanwarafridi/vehicle-sales-data/data).
 {: .notice}
+
 ---
+
 **Approach:**  
-Bullets: EDA → prep → modeling/SQL → evaluation.
+I used the standard layered approach, which consisted of:
+- Conceptual Design (High Level ER Diagrams)
+- Logical Design (Define tables, columns and keys)
+- Physical Model (DDL)
+- Deployment (Loading and transforming data)
 
 
 ---
