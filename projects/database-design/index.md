@@ -50,10 +50,12 @@ I used the standard layered approach, consisting of:
 
 
 Conceptual diagram describing preliminary structure and cardinality:
+{: .text-center}
 ![Conceptual-Model](/assets/Conceptual_Diagram.png){: .align-center}
 <figcaption>This is the image caption.</figcaption>
 
 Physical model diagram created using reverse-engineer method:
+{: .text-center}
 ![Physical_Diagram](/assets/Physical_Diagram.png){: .align-center}
 
 SQL excerpt defining tables, primary keys and foreign keys:
