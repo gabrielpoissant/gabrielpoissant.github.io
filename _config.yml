@@ -2,6 +2,8 @@ title: Gabe Poissant
 description: Data Science Portfolio
 remote_theme: "mmistakes/minimal-mistakes@4.27.3"
 
+locale: en
+
 plugins:
   - jekyll-remote-theme
   - jekyll-include-cache
