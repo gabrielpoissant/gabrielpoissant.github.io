@@ -77,6 +77,7 @@ REFERENCES MAKE(Make_ID);
 
 **Results:**  
 After data input and configuration, I'm able to define queries:
+{: .text-center}
 ```
 SELECT 
     seller,
@@ -92,19 +93,9 @@ LIMIT 10;
 ```
 
 Output:
+{: .text-center}
+![Query_Output](/assets/Query_Output.png){: .align-center}
 
-| seller | cars_sold | avg_discount_vs_mmr | average_condition | average_odometer |
-|-----------|----------|---------|----------|---------|
-| hertz/tra | 500 | 6630.09 | 1.78 | 32143.31 |
-| fox rent a car tra | 115 | 5212.17 | 2.47 | 35468.75 |
-| hertz damaged liquidation | 112 | 4636.38 | 2.50 | 46183.85 |
-| enterprise vehicle exchange / tra / rental / tulsa | 2395 | 4454.55 | 2.26 | 24533.00 |
-| mercedes-benz usa | 154 | 2670.78 | 36.89 | 20526.31 |
-| hyundai buybacks | 125 | 2665.80 | 33.67 | 22535.38 |
-| enterprise fm exchange/tra/lease | 102 | 1931.13 | 4.11 | 131590.00 |
-| security service fcu (sscu) | 133 | 1852.82 | 24.92 | 78381.17 |
-| excell auto center | 316 | 1764.00 | 30.33 | 77011.25 |
-| navy federal credit union | 139 | 1482.37 | 26.81 | 82929.74 |
 
 This table is a short guide to high-volume sellers who regularly price below Manheim Market Report value, sorted by greatest savings.  
 {: .notice}
