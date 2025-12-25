@@ -80,12 +80,12 @@ REFERENCES MAKE(Make_ID);
 After data input and configuration, I'm able to define queries:
 {: .text-center}
 ```
-SELECT 
-    seller,
-    COUNT(*) AS cars_sold,
-    ROUND(AVG(mmr - sellingprice), 2) AS avg_discount_vs_mmr,
+SELECT
+	seller,
+	COUNT(*) AS cars_sold,
+	ROUND(AVG(mmr - sellingprice),2) AS avg_discount_vs_mmr,
 	ROUND(AVG(car_condition),2) AS average_condition,
-    ROUND(AVG(odometer),2) AS average_odometer
+	ROUND(AVG(odometer),2) AS average_odometer
 FROM vw_CARS
 GROUP BY seller
 HAVING COUNT(*) > 100
