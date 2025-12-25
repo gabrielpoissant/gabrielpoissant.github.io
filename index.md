@@ -11,6 +11,8 @@ sidebar:
 
 I build clear, decision-ready analysis from messy data — with strengths in modeling, SQL, and business/finance context.
 
+
+<!--
 ## Projects
 - **Project A (Repo 1)** — 1–2 sentence value statement.  
   - Case study: /projects/project-a  
@@ -53,5 +55,7 @@ then you can do stuff like this:
 - [x] Write the press release
 - [ ] Update the website
 - [ ] Contact the media
+
+-->
 
 I need to highlight these ==very important words==.
