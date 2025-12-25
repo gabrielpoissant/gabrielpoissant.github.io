@@ -100,8 +100,6 @@ Output:
 This table is a short guide to high-volume sellers who regularly price below Manheim Market Report value, sorted by greatest savings.  
 {: .notice}
 
-Metrics *or* business insights, plus 2–4 bullets.
-
 ---
 
 **What I’d do next:**  
