@@ -7,7 +7,5 @@ main:
 side_nav: 
   - title: "Projects:"
     children:
-      - title: Project A
-        url: /projects/project-a/
       - title: Database Design
         url: /projects/database-design/
