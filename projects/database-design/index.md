@@ -8,13 +8,12 @@ sidebar:
 ---
 
 ---
-**Goal:**  
-<!--  I wanted to make sure I understood the fundamentals of how data is deployed in production environments. I decided to take a raw dataset from an unprocessed `.csv` and bring it through all design phases into a working, queryable database. -->
+#### Goal:  
 To take a raw dataset and bring it through all design phases into a working, queryable database.
 
 ---
 
-**Data:**  
+#### Data:  
 I found a dataset about used car sales in the U.S. between 2014 and 2015. The data gives information about the vehicle, and where and when it was sold.
 
 | Column | Description | Example Value |
@@ -37,11 +36,10 @@ I found a dataset about used car sales in the U.S. between 2014 and 2015. The da
 | saledate       | Date of sale      | Wed Feb 11 2015 02:15:00 GMT-0800 (PST)     |
 
 This dataset was authored by [Syed Anwar](https://www.kaggle.com/syedanwarafridi) and [published to Kaggle](https://www.kaggle.com/datasets/syedanwarafridi/vehicle-sales-data/data).
-{: .notice}
 
 ---
 
-**Approach:**  
+#### Approach:  
 I used the standard layered approach, consisting of:
 - **Conceptual Design** (High Level ER Diagram)
 - **Logical Design** (Define tables, columns and keys)
@@ -50,16 +48,16 @@ I used the standard layered approach, consisting of:
 
 
 Conceptual diagram describing preliminary structure and cardinality:
-{: .text-center}
-![Conceptual-Model](/assets/Conceptual_Diagram.png){: .align-center}
+
+![Conceptual-Model](/assets/Conceptual_Diagram.png)
 <figcaption>This is the image caption.</figcaption>
 
 Physical model diagram created using reverse-engineer method:
-{: .text-center}
-![Physical_Diagram](/assets/Physical_Diagram.png){: .align-center}
+
+![Physical_Diagram](/assets/Physical_Diagram.png)
 
 SQL excerpt defining tables, primary keys and foreign keys:
-{: .text-center}
+
 ```
 CREATE TABLE MAKE
 (Make_ID INT AUTO_INCREMENT,
@@ -75,7 +73,7 @@ REFERENCES MAKE(Make_ID);
 
 ---
 
-**Results:**
+#### Results:
 
 After data input and configuration, I'm able to define queries:
 {: .text-center}
@@ -94,16 +92,14 @@ LIMIT 10;
 ```
 
 Output:
-{: .text-center}
-![Query_Output](/assets/Query_Output.png){: .align-center}
+![Query_Output](/assets/Query_Output.png)
 
 
 This table is a short guide to high-volume sellers who regularly price below Manheim Market Report value, sorted by greatest savings.  
-{: .notice}
 
 ---
 
-**What I’d do next:**  
+#### What I’d do next:
 - Dive deeper into integrity
 - Improve efficiency with indexes
 - Anticipate team usage (roles, backups, deployment)
