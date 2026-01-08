@@ -109,7 +109,7 @@ This table is a short guide to high-volume sellers who regularly price below Man
 
 ---
 
-**Code:**  
+**Link to Repository:**  
 [https://github.com/gabepoissant/used-car-database-design](https://github.com/gabepoissant/used-car-database-design)
 
 **Learn more:**
