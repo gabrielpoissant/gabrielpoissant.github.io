@@ -9,7 +9,7 @@ sidebar:
 
 **Master’s in Data Science (University of Pittsburgh)** • San Diego, CA
 
-I build clear, decision-ready analysis from messy data — with strengths in modeling, SQL, and business/finance context.
+I build clear, decision-ready analysis from messy data, with strengths in modeling, SQL, and business/finance context.
 
 
 <!--
