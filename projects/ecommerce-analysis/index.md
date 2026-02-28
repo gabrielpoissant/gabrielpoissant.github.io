@@ -63,5 +63,8 @@ Missing value analysis before and after processing:
 ![Missing-Analysis](/assets/missing_analysis.png){: .align-center}
 
 
+
+{: .text-center}
+![Top Performing Products](/assets/Top Performing Products.png){: .align-center}
 ---
 
