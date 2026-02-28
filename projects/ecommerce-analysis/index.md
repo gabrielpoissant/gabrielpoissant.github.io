@@ -60,7 +60,7 @@ Analyzing this dataset required several data cleaning steps, and repair before a
 Missing value analysis before and after processing:
 
 {: .text-center}
-![Missing-Analysis](/assets/missing-analysis.png){: .align-center}
+![Missing-Analysis](/assets/missing_analysis.png){: .align-center}
 
 
 ---
