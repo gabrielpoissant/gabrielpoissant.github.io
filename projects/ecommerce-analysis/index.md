@@ -65,14 +65,21 @@ Missing value analysis before and after processing:
 ```
 def product_concentration(df):
     df2 = df[df['Type'] != 'Cancellation'].copy()
-    code_revenue = df2[['StockCode','TotalPrice']].groupby('StockCode').sum().sort_values('TotalPrice', ascending=False)
-    code_description = df2[['StockCode','Description']].drop_duplicates(subset='StockCode')
-    units_sold = df2[['StockCode','Quantity']].groupby('StockCode').sum().sort_values('Quantity', ascending=False)
+    code_revenue = df2[['StockCode','TotalPrice']]\
+        .groupby('StockCode').sum().sort_values('TotalPrice', ascending=False)
+    code_description = df2[['StockCode','Description']]\
+        .drop_duplicates(subset='StockCode')
+    units_sold = df2[['StockCode','Quantity']]\
+        .groupby('StockCode').sum().sort_values('Quantity', ascending=False)
 
     product_revenue = pd.merge(code_revenue, code_description, on='StockCode', how='outer')
     product_revenue = pd.merge(product_revenue, units_sold, on='StockCode', how='outer')
-    product_revenue['Percentage'] = product_revenue['TotalPrice']/product_revenue['TotalPrice'].sum()
-    product_revenue = product_revenue[['StockCode','Description','TotalPrice','Percentage','Quantity']].sort_values('TotalPrice', ascending=False).reset_index(drop=True)
+    product_revenue['Percentage'] = product_revenue['TotalPrice']\
+        /product_revenue['TotalPrice'].sum()
+    product_revenue = product_revenue[['StockCode','Description','TotalPrice',
+                                       'Percentage','Quantity']]\
+                                        .sort_values('TotalPrice', ascending=False)\
+                                            .reset_index(drop=True)
     product_revenue = product_revenue.rename(columns={'TotalPrice':'Revenue'})
     return product_revenue
 ```
