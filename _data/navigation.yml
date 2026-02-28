@@ -7,5 +7,7 @@ main:
 side_nav: 
   - title: "Projects:"
     children:
+      - title: E-Commerce Analysis
+        url: /projects/ecommerce-analysis/
       - title: Database Design
         url: /projects/database-design/
