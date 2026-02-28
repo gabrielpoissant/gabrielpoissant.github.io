@@ -1,3 +1,11 @@
+---
+layout: single
+title: E-Commerce Analysis
+permalink: /projects/ecommerce-analysis/
+author_profile: true
+sidebar:
+  nav: "side_nav"
+---
 
 ### Goal:
 To answer key business questions by cleaning, processing, and analyzing real-world e-commerce transaction data. 
