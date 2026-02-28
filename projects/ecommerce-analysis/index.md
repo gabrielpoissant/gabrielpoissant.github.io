@@ -59,7 +59,7 @@ Analyzing this dataset required several data cleaning steps, and repair before a
 
 Missing value analysis before and after processing:
 
-<img src="/img/missing_analysis.png" width="650" alt="Missing-Analysis" />
+<img src="/assets/missing_analysis.png" width="650" alt="Missing-Analysis" />
 
 
 ---
