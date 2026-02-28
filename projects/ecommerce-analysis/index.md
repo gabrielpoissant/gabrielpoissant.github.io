@@ -9,11 +9,13 @@ sidebar:
 
 ---
 **Goal:**
+
 To answer key business questions by cleaning, processing, and analyzing real-world e-commerce transaction data. 
 
 ---
 
 **Data:**
+
 I used a dataset that details e-commerce sales and returns, taken from a UK-based online store which primarily sells gift items to wholesalers. The dates of sales range from 12/01/2009 to 12/09/2010.
 
 | Column    | Description                                   | Example Value |
@@ -32,6 +34,7 @@ This dataset was authored by [Daqing Chen](https://scholar.google.com/citations?
 ---
 
 **Business Questions**
+
 I sought to answer the following critical business questions:
 - How has monthly revenue evolved over time?
 - Is there evidence of seasonality in sales?
@@ -47,6 +50,7 @@ I sought to answer the following critical business questions:
 ---
 
 **Approach**
+
 Analyzing this dataset required several data cleaning steps, and repair before analysis.
 - **Exploratory Data Analysis**
 - **Missing Data** (repaired using other row information)
