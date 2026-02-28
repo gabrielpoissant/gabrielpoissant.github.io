@@ -60,29 +60,11 @@ Analyzing this dataset required several data cleaning steps, and repair before a
 Missing value analysis before and after processing:
 
 {: .text-center}
-![Missing-Analysis](/assets/missing_analysis.png){: .align-center}
+![Missing-Analysis](/assets/missing_analysis_smaller.png){: .align-center}
 
-```
-def product_concentration(df):
-    df2 = df[df['Type'] != 'Cancellation'].copy()
-    code_revenue = df2[['StockCode','TotalPrice']]\
-        .groupby('StockCode').sum().sort_values('TotalPrice', ascending=False)
-    code_description = df2[['StockCode','Description']]\
-        .drop_duplicates(subset='StockCode')
-    units_sold = df2[['StockCode','Quantity']]\
-        .groupby('StockCode').sum().sort_values('Quantity', ascending=False)
+{: .text-center}
+![Product-Concentration-Code](/assets/product_concentration_function.png){: .align-center}
 
-    product_revenue = pd.merge(code_revenue, code_description, on='StockCode', how='outer')
-    product_revenue = pd.merge(product_revenue, units_sold, on='StockCode', how='outer')
-    product_revenue['Percentage'] = product_revenue['TotalPrice']\
-        /product_revenue['TotalPrice'].sum()
-    product_revenue = product_revenue[['StockCode','Description','TotalPrice',
-                                       'Percentage','Quantity']]\
-                                        .sort_values('TotalPrice', ascending=False)\
-                                            .reset_index(drop=True)
-    product_revenue = product_revenue.rename(columns={'TotalPrice':'Revenue'})
-    return product_revenue
-```
 
 {: .text-center}
 ![Product-Concentration-Table](/assets/product_concentration_table.png){: .align-center}
@@ -92,6 +74,8 @@ def product_concentration(df):
 
 {: .text-center}
 ![Top-Performing-Products](/assets/Top_Performing_Products.png){: .align-center}
+
+test 
 
 
 <img src="/assets/Top_Performing_Products.png" alt="" width="200"/>
