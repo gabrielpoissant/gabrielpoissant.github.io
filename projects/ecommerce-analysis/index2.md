@@ -10,7 +10,7 @@ sidebar:
 ---
 **Goal:**
 
-To answer key business questions by cleaning, processing, and analyzing real-world e-commerce transaction data. 
+Explore revenue trends, seasonality, concentration and return losses to inform merchandising decisions
 
 ---
 
@@ -58,27 +58,25 @@ Analyzing this dataset required several data cleaning steps, and repair before a
 - **Business Insights**
 
 Missing value analysis before and after processing:
-
 {: .text-center}
 ![Missing-Analysis](/assets/missing_analysis_smaller.png){: .align-center}
 
+Function definition for ranking products by concentration:
 {: .text-center}
 ![Product-Concentration-Code](/assets/product_concentration_function.png){: .align-center}
 
+---
 
+**Results**
+
+Product concentration table:
 {: .text-center}
 ![Product-Concentration-Table](/assets/product_concentration_table.png){: .align-center}
 
-
-
-
+Product concentration, visualized.
 {: .text-center}
 ![Top-Performing-Products](/assets/Top_Performing_Products.png){: .align-center}
 
-test 
-
-
-<img src="/assets/Top_Performing_Products.png" alt="" width="200"/>
 
 
 ---
