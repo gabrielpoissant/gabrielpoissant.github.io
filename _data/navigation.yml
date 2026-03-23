@@ -8,6 +8,6 @@ side_nav:
   - title: "Projects:"
     children:
       - title: E-Commerce Analysis
-        url: /projects/ecommerce-analysis/
+        url: /projects/UCI-ecommerce-analysis/
       - title: Database Design
         url: /projects/database-design/
