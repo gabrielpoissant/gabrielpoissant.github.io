@@ -7,9 +7,7 @@ sidebar:
   nav: "side_nav"
 ---
 
-# E-Commerce Sales Analysis
-
-![Top-Performing-Products](/figures/Top_Performing_Products.png)
+![Top-Performing-Products](/assets/Top_Performing_Products.png){: .align-center}
 
 **[Click here to view the Business Analysis Report](https://gabepoissant.github.io/UCI-ecommerce-analysis/)** 
 
@@ -53,10 +51,20 @@ The dataset details e-commerce sales and returns between **12/01/2009 and 12/09/
 |Customer ID  |Number that uniquely identifies customer       | 17958.0|
 |Country      |The country the customer ordered from          | United Kingdom|
 
-## Link to Repository:
-https://github.com/gabepoissant/UCI-ecommerce-analysis
+## Approach & Tech Stack
 
-**Process Images**
+Analyzing this dataset required data cleaning, missing value imputation, and feature engineering before performing Exploratory Data Analysis (EDA) and generating business insights.
+
+  - **Language:** Python
+  - **Libraries:** Pandas, Matplotlib, Seaborn, NumPy
+  - **Tools:** Jupyter Notebooks, Git/GitHub, VS Code
+
+## Link to Repository:
+[See the repository](https://github.com/gabepoissant/UCI-ecommerce-analysis)
+
+--- 
+
+**Process**
 
 Missing value analysis before and after processing:
 {: .text-center}
