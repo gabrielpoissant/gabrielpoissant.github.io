@@ -1,6 +1,6 @@
 ---
 layout: single
-title: E-Commerce Analysis
+title: UCI E-Commerce Analysis
 permalink: /projects/UCI-ecommerce-analysis/
 author_profile: true
 sidebar:
