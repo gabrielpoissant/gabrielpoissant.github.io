@@ -9,10 +9,12 @@ sidebar:
 
 **Master’s in Data Science (University of Pittsburgh)** • San Diego, CA
 
-I build clear, decision-ready analysis from messy data, with strengths in modeling, SQL, and business/finance context.
+I find the signal through the noise of chaotic data. 
 
 
 <!--
+I build clear, decision-ready analysis from messy data, with strengths in modeling, SQL, and business/finance context.
+
 ## Projects
 - **Project A (Repo 1)** — 1–2 sentence value statement.  
   - Case study: /projects/project-a  
