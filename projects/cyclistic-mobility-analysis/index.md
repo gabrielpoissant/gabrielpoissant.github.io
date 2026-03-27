@@ -13,6 +13,9 @@ sidebar:
 
 [See the GitHub Repo here](https://github.com/gabepoissant/cyclistic-mobility-analysis)
 
+<a href="https://example.com" class="button">Go to Example</a>
+
+
 ---
 
 ## Overview
