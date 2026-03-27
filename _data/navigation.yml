@@ -7,7 +7,13 @@ main:
 side_nav: 
   - title: "Projects:"
     children:
-      - title: UCI E-Commerce Analysis
+      - title: UCI E-commerce Sales Analysis (Python/EDA)
         url: /projects/UCI-ecommerce-analysis/
-      - title: Database Design
+      - title: Used Car Database Design (SQL/PostgreSQL)
+        url: /projects/database-design/
+  - title: "Older Work:"
+    children:
+      - title: TMDB Financial Performance Dashboard (Google Sheets/BI)
+        url: /projects/TMDB-financial-performance-dashboard/
+      - title: Cyclistic Case Study (SQL/Tableau)
         url: /projects/database-design/
