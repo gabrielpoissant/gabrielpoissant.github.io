@@ -9,9 +9,11 @@ sidebar:
 
 ![viz3](/assets/viz3.png)
 
-[See my interactive vizualization here!](https://public.tableau.com/views/CyclisticAnalysisWorkbook_2/CyclisticUserAnalysis?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
+**[See my interactive vizualization here](https://public.tableau.com/views/CyclisticAnalysisWorkbook_2/CyclisticUserAnalysis?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)**
 
-[See the GitHub Repo here!](https://github.com/gabepoissant/cyclistic-mobility-analysis)
+**[See the GitHub Repo here](https://github.com/gabepoissant/cyclistic-mobility-analysis)**
+
+---
 
 I was tasked with developing 12 months of real-world urban bike-sharing data (5.8 million rows) into actionable insights for a fictional company called Cyclistic.
 
@@ -357,6 +359,8 @@ Based on the findings listed above, there is a fundamental difference in the pur
     - **During the weekends**, when casual riders are most active.
     - **Near Streeter Dr & Grand Ave**, by far the most popular station used by casual riders.
 
-[See my interactive vizualization here!](https://public.tableau.com/views/CyclisticAnalysisWorkbook_2/CyclisticUserAnalysis?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
+---
 
-[See the GitHub Repo here!](https://github.com/gabepoissant/cyclistic-mobility-analysis)
+**[See my interactive vizualization here](https://public.tableau.com/views/CyclisticAnalysisWorkbook_2/CyclisticUserAnalysis?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)**
+
+**[See the GitHub Repo here](https://github.com/gabepoissant/cyclistic-mobility-analysis)**

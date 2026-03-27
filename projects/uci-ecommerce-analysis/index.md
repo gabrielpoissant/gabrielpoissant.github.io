@@ -9,7 +9,11 @@ sidebar:
 
 ![Top-Performing-Products](/assets/Top_Performing_Products.png){: .align-center}
 
-[Click here to view the Business Analysis Report](https://gabepoissant.github.io/uci-ecommerce-analysis/)
+**[Click here to view the Business Analysis Report](https://gabepoissant.github.io/uci-ecommerce-analysis/)**
+
+**[See the GitHub Repo here](https://github.com/gabepoissant/uci-ecommerce-analysis)**
+
+---
 
 ## Project Overview
 
@@ -59,10 +63,7 @@ Analyzing this dataset required data cleaning, missing value imputation, and fea
   - **Libraries:** Pandas, Matplotlib, Seaborn, NumPy
   - **Tools:** Jupyter Notebooks, Git/GitHub, VS Code
 
-## Link to Repository:
-[See the repository](https://github.com/gabepoissant/uci-ecommerce-analysis)
-
---- 
+---
 
 **Process**
 
@@ -81,3 +82,9 @@ Product concentration table:
 Product concentration, visualized.
 {: .text-center}
 ![Top-Performing-Products](/assets/Top_Performing_Products.png){: .align-center}
+
+---
+
+**[Click here to view the Business Analysis Report](https://gabepoissant.github.io/uci-ecommerce-analysis/)**
+
+**[See the GitHub Repo here](https://github.com/gabepoissant/uci-ecommerce-analysis)**

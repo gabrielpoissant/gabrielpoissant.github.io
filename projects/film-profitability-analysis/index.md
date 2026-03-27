@@ -9,6 +9,12 @@ sidebar:
 
 ![dashboard1](/assets/Layer29.png)
 
+**[See the resulting dashboard here](https://docs.google.com/spreadsheets/d/1LxXBat5DBeAFpW0df7MiPah5KHfzur9GzY5jL2LAiwU/edit?usp=sharing)**
+
+**[See the GitHub Repo here](https://github.com/gabepoissant/film-profitability-analysis)**
+
+---
+
 ## Overview
 Using data on the top 10,000 most popular films taken from The Movie Database (themoviedb.org), I will use Google Sheets to identify insights which could help a hypothetical movie studio create a profitable movie.
 
@@ -16,10 +22,6 @@ Using data on the top 10,000 most popular films taken from The Movie Database (t
 - **Timeline**: 1 week
 - **Role**: Data Analyst
 - **Date Completed**: July 2023
-
-[See the resulting dashboard here!](https://docs.google.com/spreadsheets/d/1LxXBat5DBeAFpW0df7MiPah5KHfzur9GzY5jL2LAiwU/edit?usp=sharing)
-
-[See the GitHub Repo here!](https://github.com/gabepoissant/film-profitability-analysis)
 
 ## The Business Task
 Identify common attributes for the most profitable films.
@@ -310,3 +312,9 @@ With that, it’s time to finally draw our conclusions and provide helpful insig
 - If funding is not as easily available, I recommend creating a **dramatic film with romantic and comedic elements**. This film should be about 119 minutes in length, and release sometime in December or November.
     - I suggest raising $14M in capital. If the film is a breakout hit, it is possible to earn profits as high as $150M, which is an ROI of 1229%
 - Another option that could yield high returns is the **thriller/horror** genre. With an average budget of $13M and average length of 108 minutes, other films have earned an average of $140M, or an average of 1204% ROI. These films are popular in October, September and June.
+
+---
+
+**[See the resulting dashboard here](https://docs.google.com/spreadsheets/d/1LxXBat5DBeAFpW0df7MiPah5KHfzur9GzY5jL2LAiwU/edit?usp=sharing)**
+
+**[See the GitHub Repo here](https://github.com/gabepoissant/film-profitability-analysis)**

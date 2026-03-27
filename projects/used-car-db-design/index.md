@@ -7,6 +7,10 @@ sidebar:
   nav: "side_nav"
 ---
 
+![Query_Output](/assets/Query_Output.png)
+
+**[See the GitHub Repo here](https://github.com/gabepoissant/used-car-db-design)**
+
 ---
 **Goal:**  
 <!--  I wanted to make sure I understood the fundamentals of how data is deployed in production environments. I decided to take a raw dataset from an unprocessed `.csv` and bring it through all design phases into a working, queryable database. -->
@@ -109,6 +113,5 @@ This table is a short guide to high-volume sellers who regularly price below Man
 
 ---
 
-**Link to Repository:**  
-[https://github.com/gabepoissant/used-car-database-design](https://github.com/gabepoissant/used-car-db-design)
+**[See the GitHub Repo here](https://github.com/gabepoissant/used-car-db-design)**
 
