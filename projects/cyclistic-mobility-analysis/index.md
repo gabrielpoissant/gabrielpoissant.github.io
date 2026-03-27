@@ -9,7 +9,7 @@ sidebar:
 
 ![viz3](/assets/viz3.png)
 
-[See my interactive vizualization here](https://public.tableau.com/views/CyclisticAnalysisWorkbook_2/CyclisticUserAnalysis?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
+[See the interactive vizualization here](https://public.tableau.com/views/CyclisticAnalysisWorkbook_2/CyclisticUserAnalysis?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
 
 [See the GitHub Repo here](https://github.com/gabepoissant/cyclistic-mobility-analysis)
 
@@ -339,6 +339,9 @@ Now that we’ve gained some important insights on our data, it’s time to crea
 
 [See my interactive vizualization here](https://public.tableau.com/views/CyclisticAnalysisWorkbook_2/CyclisticUserAnalysis?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link  )
 
+<a href="https://example.com" class="button">Go to Example</a>
+
+
 ![viz1](/assets/viz1.png)
 ![viz2](/assets/viz2.png)
 ![viz3](/assets/viz3.png)
@@ -362,6 +365,6 @@ Based on the findings listed above, there is a fundamental difference in the pur
 
 ---
 
-**[See my interactive vizualization here](https://public.tableau.com/views/CyclisticAnalysisWorkbook_2/CyclisticUserAnalysis?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)**
+[See the interactive vizualization here](https://public.tableau.com/views/CyclisticAnalysisWorkbook_2/CyclisticUserAnalysis?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
 
-**[See the GitHub Repo here](https://github.com/gabepoissant/cyclistic-mobility-analysis)**
+[See the GitHub Repo here](https://github.com/gabepoissant/cyclistic-mobility-analysis)
