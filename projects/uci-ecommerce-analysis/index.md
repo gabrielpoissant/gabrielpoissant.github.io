@@ -1,7 +1,7 @@
 ---
 layout: single
-title: UCI E-Commerce Analysis
-permalink: /projects/UCI-ecommerce-analysis/
+title: UCI E-commerce Sales Analysis
+permalink: /projects/uci-ecommerce-analysis/
 author_profile: true
 sidebar:
   nav: "side_nav"
@@ -9,7 +9,7 @@ sidebar:
 
 ![Top-Performing-Products](/assets/Top_Performing_Products.png){: .align-center}
 
-**[Click here to view the Business Analysis Report](https://gabepoissant.github.io/UCI-ecommerce-analysis/)** 
+[Click here to view the Business Analysis Report](https://gabepoissant.github.io/uci-ecommerce-analysis/)
 
 ## Project Overview
 
@@ -60,7 +60,7 @@ Analyzing this dataset required data cleaning, missing value imputation, and fea
   - **Tools:** Jupyter Notebooks, Git/GitHub, VS Code
 
 ## Link to Repository:
-[See the repository](https://github.com/gabepoissant/UCI-ecommerce-analysis)
+[See the repository](https://github.com/gabepoissant/uci-ecommerce-analysis)
 
 --- 
 

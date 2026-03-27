@@ -1,7 +1,7 @@
 ---
 layout: single
-title: Cyclistic Case Study
-permalink: /projects/cyclistic-case-study/
+title: Cyclistic Mobility Case Study
+permalink: /projects/cyclistic-mobility-analysis/
 author_profile: true
 sidebar:
   nav: "side_nav"
@@ -11,7 +11,7 @@ sidebar:
 
 [See my interactive vizualization here!](https://public.tableau.com/views/CyclisticAnalysisWorkbook_2/CyclisticUserAnalysis?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
 
-[See the GitHub Repo here!](https://github.com/gabepoissant/Cyclistic_Bike_Share)
+[See the GitHub Repo here!](https://github.com/gabepoissant/cyclistic-mobility-analysis)
 
 I was tasked with developing 12 months of real-world urban bike-sharing data (5.8 million rows) into actionable insights for a fictional company called Cyclistic.
 
@@ -359,4 +359,4 @@ Based on the findings listed above, there is a fundamental difference in the pur
 
 [See my interactive vizualization here!](https://public.tableau.com/views/CyclisticAnalysisWorkbook_2/CyclisticUserAnalysis?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
 
-[See the GitHub Repo here!](https://github.com/gabepoissant/Cyclistic_Bike_Share)
+[See the GitHub Repo here!](https://github.com/gabepoissant/cyclistic-mobility-analysis)

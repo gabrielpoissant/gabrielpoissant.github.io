@@ -1,7 +1,7 @@
 ---
 layout: single
-title: Database Design
-permalink: /projects/database-design/
+title: Used Car Database Design
+permalink: /projects/used-car-db-design/
 author_profile: true
 sidebar:
   nav: "side_nav"
@@ -110,10 +110,5 @@ This table is a short guide to high-volume sellers who regularly price below Man
 ---
 
 **Link to Repository:**  
-[https://github.com/gabepoissant/used-car-database-design](https://github.com/gabepoissant/used-car-database-design)
+[https://github.com/gabepoissant/used-car-database-design](https://github.com/gabepoissant/used-car-db-design)
 
-**Learn more:**
-- [Database Design](https://github.com/gabepoissant/used-car-database-design/blob/main/docs/01_Design.md)
-- [Implementation](https://github.com/gabepoissant/used-car-database-design/blob/main/docs/02_Implementation.md)
-- [Analysis](https://github.com/gabepoissant/used-car-database-design/blob/main/docs/03_Analysis.md)
-- Or, go straight to the [SQL code](https://github.com/gabepoissant/used-car-database-design/tree/main/SQL)

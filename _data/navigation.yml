@@ -5,15 +5,15 @@ main:
     url: /resume/
 
 side_nav: 
-  - title: "Projects:"
+  - title: "Recent Projects:"
     children:
       - title: • UCI E-commerce Sales Analysis (Python/EDA)
-        url: /projects/UCI-ecommerce-analysis/
+        url: /projects/uci-ecommerce-analysis/
       - title: • Used Car Database Design (SQL/PostgreSQL)
-        url: /projects/database-design/
-  - title: "Older Work:"
+        url: /projects/used-car-db-design/
+  - title: "Previous Work:"
     children:
-      - title: • TMDB Financial Performance Dashboard (Google Sheets/BI)
-        url: /projects/TMDB-financial-performance-dashboard/
-      - title: • Cyclistic Case Study (SQL/Tableau)
-        url: /projects/cyclistic-case-study/
+      - title: • Film Profitability Analysis (Google Sheets/BI)
+        url: /projects/film-profitability-analysis/
+      - title: • Cyclistic Mobility Case Study (SQL/Tableau)
+        url: /projects/cyclistic-mobility-analysis/

@@ -1,7 +1,7 @@
 ---
 layout: single
-title: TMDB Financial Performance Dashboard
-permalink: /projects/TMDB-financial-performance-dashboard/
+title: Film Profitability Analysis
+permalink: /projects/film-profitability-analysis/
 author_profile: true
 sidebar:
   nav: "side_nav"
@@ -19,7 +19,7 @@ Using data on the top 10,000 most popular films taken from The Movie Database (t
 
 [See the resulting dashboard here!](https://docs.google.com/spreadsheets/d/1LxXBat5DBeAFpW0df7MiPah5KHfzur9GzY5jL2LAiwU/edit?usp=sharing)
 
-[See the GitHub Repo here!](https://github.com/gabepoissant/TMDB-Financial-Performance-Dashboard)
+[See the GitHub Repo here!](https://github.com/gabepoissant/film-profitability-analysis)
 
 ## The Business Task
 Identify common attributes for the most profitable films.
