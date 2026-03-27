@@ -9,9 +9,7 @@ sidebar:
 
 ![dashboard1](/assets/Layer29.png)
 
-[See the dashboard here](https://docs.google.com/spreadsheets/d/1LxXBat5DBeAFpW0df7MiPah5KHfzur9GzY5jL2LAiwU/edit?usp=sharing)
-
-[See the GitHub Repo here](https://github.com/gabepoissant/film-profitability-analysis)
+[Dashboard](https://docs.google.com/spreadsheets/d/1LxXBat5DBeAFpW0df7MiPah5KHfzur9GzY5jL2LAiwU/edit?usp=sharing) - [GitHub Repo](https://github.com/gabepoissant/film-profitability-analysis)
 
 ---
 
@@ -315,6 +313,4 @@ With that, it’s time to finally draw our conclusions and provide helpful insig
 
 ---
 
-[See the dashboard here](https://docs.google.com/spreadsheets/d/1LxXBat5DBeAFpW0df7MiPah5KHfzur9GzY5jL2LAiwU/edit?usp=sharing)
-
-[See the GitHub Repo here](https://github.com/gabepoissant/film-profitability-analysis)
+[Dashboard](https://docs.google.com/spreadsheets/d/1LxXBat5DBeAFpW0df7MiPah5KHfzur9GzY5jL2LAiwU/edit?usp=sharing) - [GitHub Repo](https://github.com/gabepoissant/film-profitability-analysis)

@@ -9,7 +9,7 @@ sidebar:
 
 ![Query_Output](/assets/Query_Output.png)
 
-[See the GitHub Repo here](https://github.com/gabepoissant/used-car-db-design)
+[GitHub Repo](https://github.com/gabepoissant/used-car-db-design)
 
 ---
 
@@ -113,5 +113,5 @@ This table is a short guide to high-volume sellers who regularly price below Man
 
 ---
 
-**[See the GitHub Repo here](https://github.com/gabepoissant/used-car-db-design)**
+[GitHub Repo](https://github.com/gabepoissant/used-car-db-design)
 
