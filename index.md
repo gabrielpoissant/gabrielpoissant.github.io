@@ -9,56 +9,20 @@ sidebar:
 
 **Master’s in Data Science (University of Pittsburgh)** • San Diego, CA
 
-I find the signal through the noise of chaotic data. 
+Financial Data Specialist | Data Science Graduate Student | Skilled in Python, SQL, & Financial Reporting
 
+I’m a finance and data professional with hands-on experience managing and analyzing financial information. Currently pursuing a Master’s in Data Science at the University of Pittsburgh, I work with Python, SQL, and Excel to turn data into clear, reliable insights that support better decisions.
 
-<!--
-I build clear, decision-ready analysis from messy data, with strengths in modeling, SQL, and business/finance context.
+Certified in Google Data Analytics, CompTIA A+, and Intuit Bookkeeping, I bring a balance of technical skill and financial understanding. I’m driven by curiosity, problem-solving, and the belief that good data can tell powerful stories.
 
-## Projects
-- **Project A (Repo 1)** — 1–2 sentence value statement.  
-  - Case study: /projects/project-a  
-  - Code: https://github.com/USERNAME/REPO1
+I’m open to opportunities in data analysis, financial analysis, and business intelligence, where I can help transform complex information into meaningful results.
 
-- **Project B (Repo 2)** — 1–2 sentence value statement.  
-  - Case study: /projects/project-b  
-  - Code: https://github.com/USERNAME/REPO2
+### Skills
 
-{: .notice--info}
-**Design choice:** I clustered before modeling to understand structure before optimizing performance.
-
-or try 
-
-{: .notice--warning}
-**Limitation:** This dataset is observational, so causal claims are intentionally avoided.
-
-then you can do stuff like this: 
-## How I approach data problems
-- Start with the decision, not the model
-- Explore aggressively before modeling
-- Prefer simple models unless complexity is justified
-- Document assumptions and limitations clearly
-
-## Use these for more fancy web stuff!
-- https://mmistakes.github.io/minimal-mistakes/docs/utility-classes/
-- https://www.markdownguide.org/cheat-sheet/
-
-
----
-
-	> gimme some money please
-
-| Syntax | Description |
-| ----------- | ----------- |
-| Header | Title |
-| Paragraph | Text |
-
-
-- [x] Write the press release
-- [ ] Update the website
-- [ ] Contact the media
-
-
-
-I need to highlight these ==very important words==.
--->
+| Category | Skills & Tools |
+| :--- | :--- |
+| **Languages** | Python (Pandas, NumPy), SQL (MySQL), HTML/CSS |
+| **Data Analysis** | Exploratory Data Analysis (EDA), Statistical Modeling, Financial ROI |
+| **Data Architecture** | Relational Database Design, ETL Pipelines, Normalization (3NF) |
+| **Visualization** | Tableau, Google Looker Studio, Matplotlib, Seaborn |
+| **Operations** | Git/GitHub, Docker, Linux (Ubuntu), Advanced Excel/Sheets |
