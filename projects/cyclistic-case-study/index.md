@@ -7,7 +7,7 @@ sidebar:
   nav: "side_nav"
 ---
 
-![viz3](https://github.com/gabepoissant/cyclistic_bike_share/blob/main/visualization/viz3.png)
+![viz3](/assets/viz3.png)
 
 [See my interactive vizualization here!](https://public.tableau.com/views/CyclisticAnalysisWorkbook_2/CyclisticUserAnalysis?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
 
