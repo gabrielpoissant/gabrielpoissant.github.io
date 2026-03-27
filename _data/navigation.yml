@@ -9,7 +9,7 @@ side_nav:
     children:
       - title: • UCI E-commerce Sales Analysis (Python/EDA)
         url: /projects/uci-ecommerce-analysis/
-      - title: • Used Car Database Design (SQL/PostgreSQL)
+      - title: • Used Car Database Design (SQL/MySQL)
         url: /projects/used-car-db-design/
   - title: "Previous Work:"
     children:
