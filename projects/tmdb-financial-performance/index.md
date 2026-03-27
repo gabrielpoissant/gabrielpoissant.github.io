@@ -17,6 +17,8 @@ Using data on the top 10,000 most popular films taken from The Movie Database (t
 
 [See the resulting dashboard here!](https://docs.google.com/spreadsheets/d/1LxXBat5DBeAFpW0df7MiPah5KHfzur9GzY5jL2LAiwU/edit?usp=sharing)
 
+[See the GitHub Repo here!](https://github.com/gabepoissant/TMDB-Financial-Performance-Dashboard)
+
 ## The Business Task
 Identify common attributes for the most profitable films.
 
@@ -52,7 +54,7 @@ The data is taken from The Movie Database, which is a community-built movie and 
 - **runtime**: Total runtime of the movie in minutes.
 - **tagline**: Short, memorable phrase associated with the movie, often used in promotional material.
 
-![initial_data](/assets/Layer%2001.png)
+![initial_data](/assets/Layer01.png)
 
 
 Because the dataset is comprised of 10,000 of the most popular films at the time the data was collected, there is an undeniable bias towards more recent films. This will skew all further analysis because successful films are over-represented compared to unsuccessful ones. This also limits our ability to analyze year-over-year growth in the film industry as older movies are under-represented. Since we are looking to emulate past successes and not past failures, we will still be able to make use of the averages of films in this dataset.
@@ -61,7 +63,7 @@ Because the dataset is comprised of 10,000 of the most popular films at the time
 #### Removing Excessive Columns
 First, I’ll delete the **index, original_language, vote_average, vote_count, popularity, overview, production companies** and **tagline** columns, as they are unnecessary to our analysis.
 
-![data_cleaning](/assets/Layer%2002.png)
+![data_cleaning](/assets/Layer02.png)
 
 #### Correcting Data Types
 Next, I’ll change all columns to the following data types:
@@ -73,18 +75,18 @@ Next, I’ll change all columns to the following data types:
 - **revenue**: currency
 - **runtime**: number
 
-![correcting](/assets/Layer%2003.png)
+![correcting](/assets/Layer03.png)
 
 #### Removing Rows with Incomplete Data
 Seeing a significant amount of 0 values for **budget** and **revenue**, I’ll start by cleaning those columns first
 
 Filtering by blank **budget** values, I find 4 rows to delete.
 
-![blank](/assets/Layer%2004.png)
+![blank](/assets/Layer04.png)
 
 Filtering by **budget** <$500, I can delete 4,668 rows
 
-![budget](/assets/Layer%2005.png)
+![budget](/assets/Layer05.png)
 
 I repeat this process on the **revenue** column, deleting all values less than $500.
 
@@ -100,45 +102,45 @@ Next, I’ll check for rows with missing values in any of the following columns:
 #### Removing Unnecessary Characters
 Using Find and Replace, I’ll remove the brackets and single quotes from the **genres** column.
 
-![unnecessary](/assets/Layer%2007.png)
+![unnecessary](/assets/Layer07.png)
 
 Having finished all this, the data is now clean. We are left with 4,670 rows and 6 columns.
 
-![unnecessary2](/assets/Layer%2008.png)
+![unnecessary2](/assets/Layer08.png)
 
 ## Processing
 #### Profit Column
 First, I’ll create a column for **profit**. This will be calculated by subtracting the **budget** from **revenue**.
 
-![profit_column](/assets/Layer%2009.png)
+![profit_column](/assets/Layer09.png)
 
 `=E2-D2`
 
 #### ROI Column
 Next, I’ll create a new column called **ROI**. This is revenue divided by budget represented as a percentage. Anything lower than 100% lost money at the box office.
 
-![ROI_column](/assets/Layer%2010.png)
+![ROI_column](/assets/Layer10.png)
 
 `=E2/D2`
 
 #### Release Year Column
 Next, I’ll create a **release_year** column.
 
-![release_year_column](/assets/Layer%2011.png)
+![release_year_column](/assets/Layer11.png)
 
 `=YEAR(C2)`
 
 #### Release Month Column
 I’ll also create a **release_month** column.
 
-![release_month_column](/assets/Layer%2012.png)
+![release_month_column](/assets/Layer12.png)
 
 `=MONTH(D2)`
 
 #### Weekday Column
 Finally, I’ll create a **weekday** column.
 
-![release_weekday_column](/assets/Layer%2013.png)
+![release_weekday_column](/assets/Layer13.png)
 
 `=WEEKDAY(D2)`
 
@@ -147,7 +149,7 @@ I’ll copy these three columns and use Paste special > Values only to remove th
 
 I’ll select the **release_month** column, and use Find and Replace to replace each number with its corresponding month. [1 = January, 2 = February, 3 = March, …]
 
-![translate_date](/assets/Layer%2015.png)
+![translate_date](/assets/Layer15.png)
 
 By starting with December, November and October, I can avoid issues such as incorrectly replacing “11” with “JanuaryJanuary”
 I’ll repeat the same process to convert the **weekday** column into their proper names.
@@ -162,17 +164,17 @@ Next, I’ll create a new column, called **profit_ranking**, and adding a numeri
 
 Now, I want to repeat this same process, only instead of ranking by **profit**, I’ll be ranking by **ROI**, and naming this column **ROI_ranking**.
 
-![ROI_ranking](/assets/Layer%2017.png)
+![ROI_ranking](/assets/Layer17.png)
 
 Now, I’ll create another column called **profitable**. This column will display “T” if the movie made any money. If not, it will display “F”.
 
-![profitable](/assets/Layer%2018.png)
+![profitable](/assets/Layer18.png)
 
 `=IF(I2>=0, "T", "F")`
 
 Using the columns we just created, I’ll be able to create a percentile for each row. I want my percentile calculations to only include films that are profitable, so I’ll use the number of “T” values in the **profitable** column to serve as the denominator. The result is two new columns: **profit_percentile** and **ROI_percentile**.
 
-![percentiles](/assets/Layer%2019.png)
+![percentiles](/assets/Layer19.png)
 
 `=M2/COUNTIF(P:P,"T")`
 
@@ -182,7 +184,7 @@ Having finished this, we’re now ready to analyze the data.
 #### Breakdown by Genre
 To start things off, I’d like to create a breakdown of all films by genre. So, I’ll list out each genre and calculate the percentage of films tagged with each genre.
 
-![genre_breakdown](/assets/Layer%2020.png)
+![genre_breakdown](/assets/Layer20.png)
 
 `=COUNTIF(Top_10000_Films_TMDb!F:F, CONCATENATE("*",$A2,"*"))/COUNTIF(Top_10000_Films_TMDb!A:A,"<>")`
 
@@ -195,11 +197,11 @@ Profitable contains three values: <>, T and F. This will allow the stakeholder t
 
 Genre contains all genres as well as the <> value which will allow stakeholders to view all genres at once. The genres are wrapped in asterisks which seem to be necessary due to formulas we’ll be writing later.
 
-![dashboard_controls](/assets/Layer%2021.png)
+![dashboard_controls](/assets/Layer21.png)
 
 We’ll need to edit our genre breakdown formula to take these controls into account.
 
-![genre_breakdown_controls](/assets/Layer%2022.png)
+![genre_breakdown_controls](/assets/Layer22.png)
 
 `=COUNTIFS(Top_10000_Films_TMDb!F:F, CONCATENATE("*",$A5,"*"),Top_10000_Films_TMDb!F:F,$B$2,Top_10000_Films_TMDb!P:P,$B$1)/COUNTIFS(Top_10000_Films_TMDb!F:F,$B$2,Top_10000_Films_TMDb!P:P,$B$1))`
 
@@ -208,14 +210,14 @@ This formula uses `COUNTIFS()` in the numerator and the denominator in order to 
 #### Film Count
 I’ll create a cell that counts the number of films that fit the criteria
 
-![film_count](/assets/Layer%2023.png)
+![film_count](/assets/Layer23.png)
 
 `=COUNTIFS(Top_10000_Films_TMDb!F:F,$B$2,Top_10000_Films_TMDb!P:P,$B$1`
 
 #### Averages by Criteria
 I’ll now create some at-a-glance information about our selection, including Average Budget, Average Revenue, Average Profit, Average ROI and Average Runtime.
 
-![averages_criteria](/assets/Layer%2024.png)
+![averages_criteria](/assets/Layer24.png)
 
 `=AVERAGEIFS(Top_10000_Films_TMDb!I:I,Top_10000_Films_TMDb!$P:$P,$B$1,Top_10000_Films_TMDb!$F:F,$B$2)`
 
@@ -223,25 +225,25 @@ This formula uses `AVERAGEIFS()` to take the average of a given column provided 
 
 ROI must be calculated by dividing Average Budget by Average Revenue, not by averaging all ROIs in our dataset.
 
-![averages_criteria2](/assets/Layer%2025.png)
+![averages_criteria2](/assets/Layer25.png)
 
 `=F2/E2`
 
 #### Averages by Genre with Controls
 Now, I’ll be creating these same figures (Average Budget, Revenue, Profit, ROI and Runtime) for each genre. The `AVERAGEIFS()` function is used again here, only adding an additional criteria which is each genre in the breakdown. Also, `IFERROR()` is used to replace any `DIV/0` errors with “No Data”.
 
-![averages_genre_controls](/assets/Layer%2026.png)
+![averages_genre_controls](/assets/Layer26.png)
 
 `=IFERROR(AVERAGEIFS(Top_10000_Films_TMDb!G:G,Top_10000_Films_TMDb!$F:F,CONCATENATE("*",$A5,"*"),Top_10000_Films_TMDb!$P:$P,$B$1,Top_10000_Films_TMDb!$F:$F,$B$2),"No Data")`
 
 This process is re-used to form the Revenue, Profit, and Runtime columns. Again, the average ROI is found by dividing Average Revenue by Average Profit.
 
-![averages_ROI](/assets/Layer%2027.png)
+![averages_ROI](/assets/Layer27.png)
 
 #### Averages by Release Month and Weekday
 The steps taken above can be used once again to create two more tables: Month and Weekday. Instead of checking whether the film matches the genre in the A column, it will check whether the films were released in the given month or weekday
 
-![averages_ROI](/assets/Layer%2028.png)
+![averages_ROI](/assets/Layer28.png)
 
 #### Adding Percentile Controls
 Before we move on to the visualizations, remember when we made those percentile columns? It’s time to put those to use.
@@ -264,7 +266,7 @@ I’ve reproduced our tables from earlier onto two additional sheets. One sheet 
 #### Dashboard 1: Complete Overview
 Our first dashboard is an overview of the entire dataset with some additional functionality. Before any customization, this sheet will show data on all films, including average budget, average revenue, average profit, average ROI and average runtime. It also uses charts to show most popular genres, average budget and revenue by genre, most popular release months, average ROI by genre and average runtime by genre.
 
-![dashboard1](/assets/Layer%2029.png)
+![dashboard1](/assets/Layer29.png)
 
 This same sheet can be used to visualize other segments, allowing the stakeholder to view:
 
@@ -274,17 +276,17 @@ This same sheet can be used to visualize other segments, allowing the stakeholde
 
 This allows stakeholders to see most popular genre pairings. For example, with this selection, a stakeholder can clearly see that profitable family movies are most likely to also be comedy, adventure, action and fantasy films.
 
-![dashboard1b](/assets/Layer%2032.png)
+![dashboard1b](/assets/Layer32.png)
 
 #### Dashboard 2: Top Performers by Highest Profit
 Our second dashboard allows the stakeholder to see the top performers when it comes to the amount profited. In this selection, the stakeholder can see that of the top 20% of highest-profiting films, the most popular genres are adventure, action, and comedy.
 
-![dashboard2](/assets/Layer%2030.png)
+![dashboard2](/assets/Layer30.png)
 
 #### Dashboard 3: Top Performers by Highest ROI
 Our third dashboard shows the top performers in terms of ROI. The top 20% films with the highest ROI are most likely to be drama, comedy and thriller films.
 
-![dashboard3](/assets/Layer%2030.png)
+![dashboard3](/assets/Layer30.png)
 
 With that, it’s time to finally draw our conclusions and provide helpful insights and recommendations.
 
