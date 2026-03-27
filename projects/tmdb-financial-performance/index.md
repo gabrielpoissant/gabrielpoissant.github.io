@@ -203,7 +203,7 @@ We’ll need to edit our genre breakdown formula to take these controls into acc
 
 ![genre_breakdown_controls](/assets/Layer22.png)
 
-`=COUNTIFS(Top_10000_Films_TMDb!F:F, CONCATENATE("*",$A5,"*"),Top_10000_Films_TMDb!F:F,$B$2,Top_10000_Films_TMDb!P:P,$B$1)/COUNTIFS(Top_10000_Films_TMDb!F:F,$B$2,Top_10000_Films_TMDb!P:P,$B$1))`
+`=COUNTIFS(Top_10000_Films_TMDb!F:F, CONCATENATE("*",$A5,"*"), Top_10000_Films_TMDb!F:F, $B$2, Top_10000_Films_TMDb!P:P, $B$1)/COUNTIFS(Top_10000_Films_TMDb!F:F, $B$2, Top_10000_Films_TMDb!P:P, $B$1))`
 
 This formula uses `COUNTIFS()` in the numerator and the denominator in order to find a percentage. The criteria that `COUNTIFS()` is checking is not only checking the genre value as it was before, but also the **profitable** and **genres** columns, which ties in the dropdowns to our formula. 
 
@@ -219,7 +219,7 @@ I’ll now create some at-a-glance information about our selection, including Av
 
 ![averages_criteria](/assets/Layer24.png)
 
-`=AVERAGEIFS(Top_10000_Films_TMDb!I:I,Top_10000_Films_TMDb!$P:$P,$B$1,Top_10000_Films_TMDb!$F:F,$B$2)`
+`=AVERAGEIFS(Top_10000_Films_TMDb!I:I, Top_10000_Films_TMDb!$P:$P, $B$1, Top_10000_Films_TMDb!$F:F, $B$2)`
 
 This formula uses `AVERAGEIFS()` to take the average of a given column provided the conditions match, which in this case are the Profitable and Genre dropdowns. Budget, revenue, profit and runtime can all re-use this formula.
 
@@ -234,7 +234,7 @@ Now, I’ll be creating these same figures (Average Budget, Revenue, Profit, ROI
 
 ![averages_genre_controls](/assets/Layer26.png)
 
-`=IFERROR(AVERAGEIFS(Top_10000_Films_TMDb!G:G,Top_10000_Films_TMDb!$F:F,CONCATENATE("*",$A5,"*"),Top_10000_Films_TMDb!$P:$P,$B$1,Top_10000_Films_TMDb!$F:$F,$B$2),"No Data")`
+`=IFERROR(AVERAGEIFS(Top_10000_Films_TMDb!G:G, Top_10000_Films_TMDb!$F:F, CONCATENATE("*",$A5,"*"), Top_10000_Films_TMDb!$P:$P, $B$1, Top_10000_Films_TMDb!$F:$F, $B$2), "No Data")`
 
 This process is re-used to form the Revenue, Profit, and Runtime columns. Again, the average ROI is found by dividing Average Revenue by Average Profit.
 
@@ -258,7 +258,7 @@ In this case, the N column is our **profit_percentile** column and $B$1 is the c
 
 In context it looks like this:
 
-`=IFERROR(AVERAGEIFS(Top_10000_Films_TMDb!G:G,Top_10000_Films_TMDb!$N:$N,CONCATENATE("<=",$B$1,"%"),Top_10000_Films_TMDb!$P:$P,"T",Top_10000_Films_TMDb!$F:$F,$B$2,Top_10000_Films_TMDb!$F:$F,CONCATENATE("*",$A61,"*")),"No Data")`
+`=IFERROR(AVERAGEIFS(Top_10000_Films_TMDb!G:G, Top_10000_Films_TMDb!$N:$N, CONCATENATE("<=",$B$1,"%"), Top_10000_Films_TMDb!$P:$P, "T", Top_10000_Films_TMDb!$F:$F, $B$2, Top_10000_Films_TMDb!$F:$F, CONCATENATE("*",$A61,"*")), "No Data")`
 
 I’ve reproduced our tables from earlier onto two additional sheets. One sheet represents the top profiting percentile by dollar amount, the other represents highest profitability.
 
