@@ -9,9 +9,9 @@ sidebar:
 
 ![dashboard1](/assets/Layer29.png)
 
-**[See the resulting dashboard here](https://docs.google.com/spreadsheets/d/1LxXBat5DBeAFpW0df7MiPah5KHfzur9GzY5jL2LAiwU/edit?usp=sharing)**
+[See the resulting dashboard here](https://docs.google.com/spreadsheets/d/1LxXBat5DBeAFpW0df7MiPah5KHfzur9GzY5jL2LAiwU/edit?usp=sharing)
 
-**[See the GitHub Repo here](https://github.com/gabepoissant/film-profitability-analysis)**
+[See the GitHub Repo here](https://github.com/gabepoissant/film-profitability-analysis)
 
 ---
 

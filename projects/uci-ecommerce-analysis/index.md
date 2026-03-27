@@ -9,13 +9,13 @@ sidebar:
 
 ![Top-Performing-Products](/assets/Top_Performing_Products.png){: .align-center}
 
-**[Click here to view the Business Analysis Report](https://gabepoissant.github.io/uci-ecommerce-analysis/)**
+[Click here to view the Business Analysis Report](https://gabepoissant.github.io/uci-ecommerce-analysis/)
 
-**[See the GitHub Repo here](https://github.com/gabepoissant/uci-ecommerce-analysis)**
+[See the GitHub Repo here](https://github.com/gabepoissant/uci-ecommerce-analysis)
 
 ---
 
-## Project Overview
+## Overview
 
 This project analyzes a dataset of transactions from a UK-based online store to identify answers to key business questions. By cleaning the raw data and applying business metrics, I uncovered trends that can help drive inventory and marketing decisions.
 

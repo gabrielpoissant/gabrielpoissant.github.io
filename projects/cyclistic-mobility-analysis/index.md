@@ -9,12 +9,13 @@ sidebar:
 
 ![viz3](/assets/viz3.png)
 
-**[See my interactive vizualization here](https://public.tableau.com/views/CyclisticAnalysisWorkbook_2/CyclisticUserAnalysis?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)**
+[See my interactive vizualization here](https://public.tableau.com/views/CyclisticAnalysisWorkbook_2/CyclisticUserAnalysis?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
 
-**[See the GitHub Repo here](https://github.com/gabepoissant/cyclistic-mobility-analysis)**
+[See the GitHub Repo here](https://github.com/gabepoissant/cyclistic-mobility-analysis)
 
 ---
 
+## Overview
 I was tasked with developing 12 months of real-world urban bike-sharing data (5.8 million rows) into actionable insights for a fictional company called Cyclistic.
 
 - Technology: SQL, Tableau

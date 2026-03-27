@@ -9,15 +9,14 @@ sidebar:
 
 ![Query_Output](/assets/Query_Output.png)
 
-**[See the GitHub Repo here](https://github.com/gabepoissant/used-car-db-design)**
+[See the GitHub Repo here](https://github.com/gabepoissant/used-car-db-design)
 
 ---
-**Goal:**  
+
+## Project Overview
+
+Goal: To take a raw dataset and bring it through all design phases into a working, queryable database.
 <!--  I wanted to make sure I understood the fundamentals of how data is deployed in production environments. I decided to take a raw dataset from an unprocessed `.csv` and bring it through all design phases into a working, queryable database. -->
-To take a raw dataset and bring it through all design phases into a working, queryable database.
-
----
-
 **Data:**  
 I found a dataset about used car sales in the U.S. between 2014 and 2015. The data gives information about the vehicle, and where and when it was sold.
 
