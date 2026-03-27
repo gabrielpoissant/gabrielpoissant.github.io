@@ -7,6 +7,8 @@ sidebar:
   nav: "side_nav"
 ---
 
+![dashboard1](/assets/Layer29.png)
+
 ## Overview
 Using data on the top 10,000 most popular films taken from The Movie Database (themoviedb.org), I will use Google Sheets to identify insights which could help a hypothetical movie studio create a profitable movie.
 
