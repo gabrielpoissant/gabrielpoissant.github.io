@@ -9,11 +9,8 @@ sidebar:
 
 ![viz3](/assets/viz3.png)
 
-[See the interactive vizualization here](https://public.tableau.com/views/CyclisticAnalysisWorkbook_2/CyclisticUserAnalysis?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
+[Interactive Vizualization](https://public.tableau.com/views/CyclisticAnalysisWorkbook_2/CyclisticUserAnalysis?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link) - [GitHub Repo](https://github.com/gabepoissant/cyclistic-mobility-analysis)
 
-[See the GitHub Repo here](https://github.com/gabepoissant/cyclistic-mobility-analysis)
-
-<a href="https://example.com" class="button">Go to Example</a>
 
 
 ---
