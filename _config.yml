@@ -1,4 +1,4 @@
-title: Gabe Poissant
+title: Gabriel Poissant
 description: Data Science Portfolio
 remote_theme: "mmistakes/minimal-mistakes@4.27.3"
 
@@ -33,7 +33,7 @@ author_profile: true
 
 # Define sidebar author profile 
 author:
-  #name   : "Gabe Poissant"
+  #name   : "Gabriel Poissant"
   avatar : "/assets/images/profile_800.jpg"
   bio    : "Master’s in Data Science • Analytics • Finance"
 
@@ -44,7 +44,7 @@ author:
 
     - label: "GitHub"
       icon: "fab fa-github"
-      url: "https://github.com/gabepoissant"
+      url: "https://github.com/gabrielpoissant"
 
     - label: "LinkedIn"
       icon: "fab fa-linkedin"

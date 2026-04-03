@@ -9,7 +9,7 @@ sidebar:
 
 ![Top-Performing-Products](/assets/Top_Performing_Products.png){: .align-center}
 
-[Business Analysis Report](https://gabepoissant.github.io/uci-ecommerce-analysis/) - [GitHub Repo](https://github.com/gabepoissant/uci-ecommerce-analysis)
+[Business Analysis Report](https://gabrielpoissant.github.io/uci-ecommerce-analysis/) - [GitHub Repo](https://github.com/gabrielpoissant/uci-ecommerce-analysis)
 
 ---
 
@@ -83,4 +83,4 @@ Product concentration, visualized.
 
 ---
 
-[Business Analysis Report](https://gabepoissant.github.io/uci-ecommerce-analysis/) - [GitHub Repo](https://github.com/gabepoissant/uci-ecommerce-analysis)
+[Business Analysis Report](https://gabrielpoissant.github.io/uci-ecommerce-analysis/) - [GitHub Repo](https://github.com/gabrielpoissant/uci-ecommerce-analysis)
