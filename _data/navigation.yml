@@ -7,13 +7,13 @@ main:
 side_nav: 
   - title: "Recent Projects:"
     children:
-      - title: • UCI E-commerce Sales Analysis
+      - title: UCI E-commerce Sales Analysis
         url: /projects/uci-ecommerce-analysis/
-      - title: • Used Car Database Design
+      - title: Used Car Database Design
         url: /projects/used-car-db-design/
   - title: "Previous Work:"
     children:
-      - title: • Film Profitability Analysis
+      - title: Film Profitability Analysis
         url: /projects/film-profitability-analysis/
-      - title: • Cyclistic Mobility Case Study
+      - title: Cyclistic Mobility Case Study
         url: /projects/cyclistic-mobility-analysis/
