@@ -7,13 +7,9 @@ sidebar:
   nav: "side_nav"
 ---
 
-**Master’s in Data Science (University of Pittsburgh)** • San Diego, CA
+Master of Data Science Candidate @ Pitt | Financial Data Specialist | SQL · Python · BI
 
-Financial Data Specialist - Data Science Graduate Student
-
-I’m a finance and data professional with hands-on experience managing and analyzing financial information. Currently pursuing a Master’s in Data Science at the University of Pittsburgh, I work with Python, SQL, and Excel to turn data into clear, reliable insights that support better decisions.
-
-I’m open to opportunities in data analysis, financial analysis, and business intelligence, where I can help transform complex information into meaningful results.
+Data professional with a background in business intelligence and financial management. Currently pursuing a Master’s in Data Science at the University of Pittsburgh, I specialize in cleaning messy financial data and building practical reporting systems. I focus on turning complex information into clear, actionable results that improve the bottom line.
 
 | **Languages** | Python (Pandas, NumPy), SQL (MySQL), HTML/CSS |
 | **Data Analysis** | Exploratory Data Analysis (EDA), Statistical Modeling, Financial ROI |
